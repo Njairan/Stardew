@@ -1,0 +1,119 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.nav .jeje{
+  font-size:35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 3px;
+}
+.info ul li{
+  display: inline-block;
+  margin-right: 5px;
+  padding:5px;
+}
+.info a{
+  text-decoration: none;
+  color:skyblue;
+}
+.container{
+  margin:auto;
+  background-color: #eaeaea;
+}
+
+.info a:hover{
+  background-color: black;
+  color:white;
+  background-image: 3px;
+}
+.poto{
+  height: 250px;
+  background-image: url(bum.png);
+  background-size: cover;
+  background-position: 0 -100px;
+  border-top:7px solid red;
+  border-bottom: 2px solid black;
+}
+.konten{
+  padding:3px;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight:bold;
+}
+.penulis{
+  padding-left: 5px;
+  font-style:italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Tentang p{
+  font-size: 9px;
+  margin:9px;
+  
+}
+    
+
+.bold{
+  border:1px solid black;
+  font-weight: bold;
+  margin:4px;
+}
+.foter{
+  border-top:1px solid black;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+.CT{
+  background-color: #878;
+  text-align: center;
+  font-size:6px;
+  padding-top:28px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 48px;
+}
